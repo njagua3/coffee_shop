@@ -1,5 +1,24 @@
 # Coffee Shop Domain Model
 
+coffee_shop/
+│
+├── coffee_shop/
+│   ├── __init__.py
+│   ├── customer.py
+│   ├── coffee.py
+│   └── order.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_customer.py
+│   ├── test_coffee.py
+│   └── test_order.py
+│
+├── Pipfile
+├── Pipfile.lock
+└── README.md
+
+
 This project implements a simple domain model for a coffee shop, focusing on three main entities:
 - `Customer`
 - `Coffee`
